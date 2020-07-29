@@ -1,10 +1,14 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import PokeDex from "../PokeDex/PokeDex";
 
 function App() {
+  
+
   return (
     <main className="App">
-        <h1>PokéMe</h1>
+      <h1 className="title">PokéMe</h1>
+      <PokeDex />
     </main>
   );
 }
