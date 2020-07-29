@@ -167,9 +167,15 @@ function PokeDex() {
             </div>
           </div>
           <div className="controller">
-            <button onClick={scan} className="controller-touch">
-              Scan
-            </button>
+            {allPokemon.length > 0 ? (
+              <button onClick={scan} className="controller-touch">
+                Scan
+              </button>
+            ) : (
+              <button disabled className="controller-touch">
+                Loading...
+              </button>
+            )}
             <div className="controller-joystick"></div>
           </div>
         </div>

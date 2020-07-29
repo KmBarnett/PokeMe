@@ -225,6 +225,10 @@
     cursor: pointer;
 }
 
+.pokeindex-left__buttons .controller .controller-touch:disabled {
+    opacity: .5;
+}
+
 .pokeindex-left__buttons .controller .controller-joystick {
     height: 30%;
     width: 30%;
