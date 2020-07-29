@@ -1,0 +1,10 @@
+.title {
+    font-family: 'Pokemon Solid',
+    fantasy;
+    -webkit-text-fill-color: yellow;
+    /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: blue;
+    font-size: 3.5rem;
+    text-align: center;
+}

@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: 'Pokemon Hollow';
+  src: url('./assets/pokmon/Pokemon_Hollow.woff2') format('woff2'),
+    url('./assets/pokmon/Pokemon_Hollow.woff') format('woff'),
+    url('./assets/pokmon/Pokemon_Hollow.ttf') format('truetype');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Pokemon Solid';
+  src: url('./assets/pokmon/Pokemon_Solid.woff2') format('woff2'),
+    url('./assets/pokmon/Pokemon_Solid.woff') format('woff'),
+    url('./assets/pokmon/Pokemon_Solid.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  border: none;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html,
+body,
+main,
+#root {
+  width: 100%;
+  height: 100%;
 }
